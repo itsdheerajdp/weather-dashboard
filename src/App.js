@@ -14,7 +14,7 @@ const App = () => {
 
   return (
     <Container className="container">
-      <Typography variant="h4" gutterBottom className="title-animation">
+      <Typography variant="h4" gutterBottom className="title-animation" style={{marginTop:"3rem"}}>
         Weather Dashboard
       </Typography>
       <SearchBar onSelectCity={handleSelectCity} />
